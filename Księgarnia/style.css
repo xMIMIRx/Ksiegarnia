@@ -1,0 +1,291 @@
+/* ==================    BODY    ================== */
+body
+{
+    background-image: url(zdj/moss_stone.jpg);
+    background-size: 100%;
+    min-width: 900px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+}
+/* ==================    BANER    ================== */
+#baner
+{
+    background-image: url(zdj/trawa.jpg);
+    background-size: 100%;
+    text-align: center;
+
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    height: auto;
+    width: auto;
+
+    color: white;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+#baner h1
+{
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+  
+#baner a:visited, #baner a:link, #baner a:active 
+{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+#baner a:hover
+{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#baner td:hover
+{
+    background-color: rgb(103, 130, 170);
+    border-color:  rgb(99, 132, 160);
+    transition: 0.5s;
+}
+
+#baner td
+{
+    background-color: rgb(170, 170, 170);
+    border: 4.5px inset rgb(105, 105, 105);
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+
+    font-size: 24px;
+}
+
+#baner table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ==================    SEKCJE    ================== */
+
+.sekcje
+{
+    background-color: rgb(26, 26, 26);
+    background-size: 100%;
+
+    margin: 48px;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 140px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    color: rgb(224, 224, 224);
+    
+    border-radius: 30px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.sekcje header
+{
+    font-weight: bold;
+    color: rgb(224, 224, 224);
+    font-size: 24px;
+
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(224, 224, 224);
+}
+
+/* ==================    autorzy    ================== */
+
+#autorzy img
+{
+    width: 240px;
+    border: 4px solid black ;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    max-width: 100%;
+    transform: scale(0.8);
+}
+
+#autorzy img:hover
+{
+    transition: 0.3s;
+    transform: scale(0.95) rotate(5deg);
+}
+
+#autorzy #obrot
+{
+    overflow: hidden;
+    width: 240px;
+}
+
+#autorzy #imie
+{
+    font-size: 48px;
+    text-decoration: underline;
+    cursor: pointer;
+
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#autorzy #imie:hover
+{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#autorzy #opis
+{
+    font-size: 14px;
+
+    margin-left: 20px;
+    margin-right: 48px;
+    margin-top: 16px;
+}
+
+/* ==================    ksiazki    ================== */
+
+#ksiazki img
+{
+    width: 240px;
+    margin-left: 64px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#ksiazki img:hover
+{
+    transition: 0.3s;
+    transform: rotate(5deg);
+}
+
+#ksiazki #tytul
+{
+    font-size: 32px;
+    text-decoration: underline;
+    cursor: pointer;
+
+    margin-left: 20px;
+    top: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#ksiazki #cena
+{
+    font-size: 20px;
+    margin-left: 48px;
+}
+
+#ksiazki #ilosc_sztuk
+{
+    font-size: 20px;
+    margin-left: 48px;
+}
+
+#wysz
+{
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+#wysz input
+{
+    height: 20px;
+    width: 200px;
+}
+
+/* ==================    zamowienia    ================== */
+
+.button
+{
+    background-color: #3a663b;
+    border: none;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tekst
+{
+    background-color: #202020;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+label
+{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+form
+{
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+#info
+{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#alert
+{
+    color: red; 
+    font-size: 24px; 
+    text-align: center;
+}
+
+#rejestracja
+{
+    margin-bottom: 20px;
+}
+
+/* ==================    STOPKA    ================== */
+
+#stopka
+{
+    background-image: url(zdj/dirt.jpg);
+    background-size: 100%;
+
+    font-size: 24px;
+    color: rgb(224, 224, 224);
+
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 10px;
+    padding-top: 0;
+    height: auto;
+    width: auto;
+
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+}
